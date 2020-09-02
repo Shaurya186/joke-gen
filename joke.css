@@ -1,0 +1,47 @@
+h2 {
+    font-size: 80px;
+    position: absolute;
+    top: 40px;
+    animation-name: cartwheeling;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  h1{
+    font-size: 40px;
+    position: absolute;
+    top: 120px;
+    animation-name: cartwheeling;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    right: 200px;
+  }
+  @keyframes cartwheeling {
+    from {
+      margin-left: 300px;
+     
+    }
+    to {
+     margin-left:100px;
+     
+    }
+  }
+
+  
+ center{
+    margin-top: 440px;
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    margin-left: 600px;
+    border-style: solid;
+    border-color: black;
+    border-top: 20px;
+ } 
+ div.poki{
+    margin-top: 360px;
+    position: fixed;
+    margin-left: 400px;
+    font-size: 40px;
+}
